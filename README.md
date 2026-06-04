@@ -60,3 +60,5 @@ mock_vehicle_data = {
 
 response = requests.post(url, json=mock_vehicle_data)
 print(json.dumps(response.json(), indent=4))
+```
+Developed by Jose Thomas as a demonstration of end-to-end MLOps and advanced predictive modeling.
